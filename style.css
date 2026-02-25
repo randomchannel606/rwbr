@@ -1,0 +1,38 @@
+body {
+    background-color: red;
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#change {
+    max-width: 65%;
+    height: auto;
+}
+
+button {
+    position: absolute;
+    
+    padding: 25px 80px;
+    font-size: 250%;
+    box-sizing: border-box;
+    
+}
+
+.left {
+    left: 150px;
+}
+.middle {
+    left: 50%;
+    transform: translate(-50%);
+}
+.right {
+    right: 150px;
+}
+
+#instructions {
+    font-size: 150%;
+}
