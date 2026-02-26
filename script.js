@@ -516,7 +516,7 @@ function r() {
             document.getElementById("instructions").innerHTML = "When both Speed and Synchroscope are in the blue going pretty slow TURN ON THE GENERATOR BREAKER SYNC SWITCH then turn of synchroscope.";
         } else if (image===71) {
             document.getElementById("change").src = "images/unit_2/3turbine/2runup/8.png";
-            document.getElementById("instructions").innerHTML = "Reverse power.";
+            document.getElementById("instructions").innerHTML = "Reverse power. (Turbine pressure must be close to 7100kPa at all times or it'll trip)";
         } else if (image===72) {
             document.getElementById("change").src = "images/unit_2/3turbine/2runup/9.png";
             document.getElementById("instructions").innerHTML = "If auto didn't already, get bypass to 0% slowely and also increase inlet with precise to around 30 to get out of reverse power.<br>KEEP IN MIND: If you get too far out of blue zone in main steam pressure or your condenser pressure is not centered (or close), say goodbye to the turbine. (TRIP)";
@@ -573,7 +573,7 @@ function r() {
             document.getElementById("instructions").innerHTML = "Demand Met";
         } else if (image===90) {
             document.getElementById("change").src = "images/unit_2/3turbine/2runup/27.png";
-            document.getElementById("instructions").innerHTML = "Reactor Info You might over pressure teh reactor while increasing power, so be careful and do it slowly.";
+            document.getElementById("instructions").innerHTML = "Reactor Info";
         }
     }
 }
